@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bunsik_activity">
+
+    <ImageButton
+        android:id="@+id/button_dduck"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dduck"
+        android:text="떡볶이" />
+
+    <ImageButton
+        android:id="@+id/button_salad"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/salad"
+        android:text="샐러드" />
+
+    <ImageButton
+        android:id="@+id/button_bong"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bong"
+        android:text="밥버거" />
+
+    <ImageButton
+        android:id="@+id/button_cupbab"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cupbab"
+        android:text="컵밥" />
+
+    <ImageButton
+        android:id="@+id/button_gimbab"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gimbab"
+        android:text="김밥" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nomyun_activity">
+
+    <ImageButton
+        android:id="@+id/button_pasta"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pasta"
+        android:text="파스타" />
+
+    <ImageButton
+        android:id="@+id/button_yaggiudong"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yaggiudong"
+        android:text="야끼우동" />
+
+    <ImageButton
+        android:id="@+id/button_jjajangmyun"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jjajangmyun"
+        android:text="짜장면" />
+
+</LinearLayout>

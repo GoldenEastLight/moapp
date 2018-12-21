@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".babmyun_activity">
+
+    <ImageButton
+        android:id="@+id/button_bab"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bab"
+        android:text="밥류먹자" />
+
+    <ImageButton
+        android:id="@+id/button_myun"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/myun"
+        android:text="면류먹자" />
+
+</LinearLayout>

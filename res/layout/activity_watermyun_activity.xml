@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".watermyun_activity">
+
+    <ImageButton
+        android:id="@+id/button_ramen"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ramen"
+        android:text="라멘" />
+
+    <ImageButton
+        android:id="@+id/button_udong"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/udong"
+        android:text="우동" />
+
+    <ImageButton
+        android:id="@+id/button_nang"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nang"
+        android:text="냉면" />
+
+    <ImageButton
+        android:id="@+id/button_soba"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/soba"
+        android:text="소바" />
+
+    <ImageButton
+        android:id="@+id/button_jjam"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jjam"
+        android:text="짬뽕" />
+
+</LinearLayout>

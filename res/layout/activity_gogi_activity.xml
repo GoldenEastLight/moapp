@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gogi_activity">
+
+    <ImageButton
+        android:id="@+id/button_pig"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pig"
+        android:text="돼지 꿀꿀" />
+
+    <ImageButton
+        android:id="@+id/button_chick"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chick"
+        android:text="닭 꼬끼오" />
+
+</LinearLayout>

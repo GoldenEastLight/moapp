@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nobab_activity">
+
+    <ImageButton
+        android:id="@+id/button_boggumbab"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boggumbab"
+        android:text="볶음밥" />
+
+    <ImageButton
+        android:id="@+id/button_thebbab"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/thebbab"
+        android:text="덮밥" />
+
+    <ImageButton
+        android:id="@+id/button_jungsik"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jungsik"
+        android:text="정식" />
+
+</LinearLayout>

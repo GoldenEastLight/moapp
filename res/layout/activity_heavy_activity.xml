@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".heavy_activity">
+
+    <ImageButton
+        android:id="@+id/button_gogi"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gogi"
+        android:text="배고플땐 고기지" />
+
+    <ImageButton
+        android:id="@+id/button_babmyun"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/babmyun"
+        android:text="밥,면좋지" />
+
+</LinearLayout>

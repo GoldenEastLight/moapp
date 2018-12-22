@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".waterbab_activity">
+
+    <ImageButton
+        android:id="@+id/button_gubbab"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gubbab"
+        android:text="국밥"
+        android:onClick="onClickButton"/>
+
+    <ImageButton
+        android:id="@+id/button_jjigae"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/jjigae"
+        android:text="찌개"
+        android:onClick="onClickButton"/>
+
+    <ImageButton
+        android:id="@+id/button_tangryu"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="1sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tangryu"
+        android:text="탕"
+        android:onClick="onClickButton"/>
+
+</LinearLayout>

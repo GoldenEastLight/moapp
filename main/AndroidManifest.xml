@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".light_activity" />
+        <activity android:name=".heavy_activity" />
+        <activity android:name=".gogi_activity" />
+        <activity android:name=".pig_activity" />
+        <activity android:name=".chick_activity" />
+        <activity android:name=".fast_activity" />
+        <activity android:name=".babmyun_activity" />
+        <activity android:name=".bab_activity" />
+        <activity android:name=".myun_activity" />
+        <activity android:name=".bunsik_activity" />
+        <activity android:name=".waterbab_activity" />
+        <activity android:name=".nobab_activity" />
+        <activity android:name=".watermyun_activity" />
+        <activity android:name=".nomyun_activity" />
+        <activity android:name=".LoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" ></activity>
+    </application>
+
+</manifest>
